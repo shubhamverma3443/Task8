@@ -1,0 +1,264 @@
+@import url(https://fonts.googleapis.com/css2?family=Varela+Round&display=swap);
+@import url(https:////fonts.googleapis.com/css?family=Raleway);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#navbar {
+    overflow: hidden;
+    background-color: white;
+   /* padding: 90px 10px; /* Large padding which will shrink on scroll (using JS) */
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    position: fixed; /* Sticky/fixed navbar */
+    width: 100%;
+    top: 0; /* At the top */
+    z-index: 99;
+  }
+  #navbar #logo {
+    width: 50%;
+    margin-left: 20%;
+    transition: 0.4s;
+  }
+  #navbar-right {
+    float: right;
+  }
+  .n1{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 20px !important;
+    line-height: 14px;
+    font-weight: 600;
+    color: grey!important;
+  }
+  .active{
+    color: rgb(0, 29, 105) !important;
+  }
+.part1{
+	background-image: url("edvstesla1.jpg");
+	background-size: 100% 100%;
+}
+#r{
+font-family: raleway;
+}
+.righttext{
+	width: 30%;
+	height: auto;
+	float: left;
+}
+.leftarea{
+	width:69.6%;
+	height: auto;
+	float: left; 
+}
+.sec2{
+	background-color: #FFC645;
+	text-align: center;
+}
+.texts{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: #666666;
+	font-family: varela round;
+    font-size: 26px;
+    line-height: 26px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.sec3img{
+	width: 100%;
+	height: auto;
+}
+.sec4img{
+	width: 70%;
+	height: 70%;
+}
+#sec4{
+	font-size: 22px;
+	line-height: 22px;
+	font-family: varela round;
+	color: #666666;
+	padding-top: 3%;
+}
+.sec4{
+	padding-top: 5%;
+}
+.sec5{
+background-color: #F6F6F6;
+}
+.sec5text{
+text-align: center;
+font-size: 20px;
+line-height: 24px;
+color: #666666;
+font-family: Raleway;
+}
+#sec5{
+	padding-top: 6%;
+	padding-bottom: 6%;
+	padding-left: 11%;
+	padding-right: 10%;
+}
+.sec6{
+	padding-top: 5%;
+}
+#sec6{
+	font-size: 22px;
+	line-height: 22px;
+	font-family: varela round;
+	color: #666666;
+	padding-top: 3%;
+}
+.sec6img{
+	width: 70%;
+	height: 70%;
+}
+.sec7{
+	background-color: #F6F6F6;
+
+}
+.sec7text{
+	text-align: center;
+font-size: 20px;
+line-height: 24px;
+color: #666666;
+font-family: Raleway;
+}
+#sec7{
+	padding-top: 6%;
+	padding-bottom: 6%;
+	padding-left: 11%;
+	padding-right: 10%;
+}
+.sec8{
+	background-image: url(texture.png);
+	background-size: auto;
+	background-repeat: repeat;
+
+}
+#sec8{
+	text-align: center;
+	padding-top: 9%;
+	padding-bottom: 9%;
+}
+.sec8 i{
+	font-size: 30px;
+	line-height: 30px;
+	color: #495e93;
+}
+.sec8 p{
+	padding-top: 12%;
+	font-family: raleway;
+	font-size: 16px;
+	line-height: 24px;
+	color: #666666;
+}
+#sec8c{
+	padding-left: 6%;
+	padding-right: 6%;
+}
+.sec9{
+	background-color: #F6F6F6;
+	padding-top: 5%;
+	padding-right: 7%;
+	padding-left: 7%;
+}
+#sec9{
+	font-size: 22px;
+	line-height: 22px;
+	font-family: varela round;
+	color: #666666;
+	padding-top: 3%;
+}
+#sec9img
+{
+	width:  55%;
+	height: 55%;
+}
+.sec11{
+background-color: #FFC645;
+	text-align: center;	
+}
+.texts11{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: #666666;
+	font-family: varela round;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+#overflowTest {
+  background: #262626;
+  color: white;
+  padding: 15px;
+  width: 80%;
+  height: 300px;
+  overflow: auto;
+  }
+  .cl{
+color: white;
+text-align: center;
+}
+.scrol{
+	padding: 19px;
+	padding-left: 8%;
+}
+.sec10{
+	background-image: url(texture.png);
+	background-size: auto;
+	background-repeat: repeat;
+
+}
+.bck{
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+	background-color: #5E5E5D;
+	text-align: center;
+}
+.inside{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.inside p{
+	font-family: raleway;
+	font-size: 20px;
+	line-height: 30px;
+	color: #ffffff;
+	
+}
+.h6{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 18px !important;
+    line-height: 18px;
+    font-weight: 500;
+    color: #ffffff!important;  
+  }
+  .h7{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px !important;
+    line-height: 24px;
+    font-weight: 500;
+    color: #ffffff!important;  
+  }
+  .h8{
+    font-family: Raleway, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px !important;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.61)!important;  
+  }
+  @media screen and (max-width: 580px) {
+    #navbar {
+      padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+    }
+    #navbar a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    #navbar-right {
+      float: none;
+    }
+  }

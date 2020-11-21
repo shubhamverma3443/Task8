@@ -1,0 +1,278 @@
+* {box-sizing: border-box;}
+body { 
+  margin: 0;
+  padding: 0;
+}
+#navbar {
+  overflow: hidden;
+  background-color: white;
+ /* padding: 90px 10px; /* Large padding which will shrink on scroll (using JS) */
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  position: fixed; /* Sticky/fixed navbar */
+  width: 100%;
+  top: 0; /* At the top */
+  z-index: 99;
+}
+#navbar #logo {
+  width: 50%;
+  margin-left: 20%;
+  transition: 0.4s;
+}
+#navbar-right {
+  float: right;
+}
+.n1{
+  font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+  font-size: 20px !important;
+  line-height: 14px;
+  font-weight: 600;
+  color: grey!important;
+}
+.active{
+  color: rgb(0, 29, 105) !important;
+}
+.sectionone{
+	padding-top: 100px;
+	text-align: center;
+}
+.sectiononeinside{
+	padding-top: 100px;
+}
+#v{
+	font-family: varela round;
+	color: #666666;
+}
+#r{
+	font-family: raleway;
+	color: #666666;
+}
+.button3{
+   border-radius: 4px;
+  background-color: #ffffff00;
+   border: 2px solid #013ba0;
+  color: #013ba0;
+  text-align: center;
+  font-size: 28px;
+  padding: 6px;
+  width: 270px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+ font-family: raleway;
+
+}
+.button3 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button3 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button3:hover span {
+  padding-right: 25px;
+}
+
+.button3:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button3:hover{
+   border-radius: 4px;
+  background-color: #EEEEEE;
+   border: none;
+  color: #013ba0;
+  text-align: center;
+  font-size: 28px;
+  padding: 6px;
+  font-family: raleway;
+  width: 270px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+
+}
+.sectiononelower{
+	padding-top: 57px;
+}
+.sectiontwo{
+	background-color: #666666;
+	
+	width: 100%;
+	text-align: center;
+}
+.section3row{
+	padding-top: 44px;
+}
+.sectionfour{
+	text-align: center;
+	width: 100%;
+	background-color: #001d69;
+	
+}
+.scal{
+    padding-top: 66px;
+}
+.sectionfiverow{
+	padding-top: 66px;
+}
+.righttext{
+	padding-right: 11%;
+	padding-left: 11%;
+}
+#name
+{
+	background-color: #EEEEEE;
+	border-radius: 0px;
+}
+#email
+{
+	background-color: #EEEEEE;
+	border-radius: 0px;
+}
+#no{
+	background-color: #EEEEEE;
+	border-radius: 0px;
+}
+#tarea{
+	background-color: #EEEEEE;
+	border-radius: 0px;
+	border: none;
+	width: 100%;
+	height: 80px;
+}
+.button4{
+   border-radius: 4px;
+  background-color: #ffffff00;
+   border: 2px solid #013ba0;
+  color: #013ba0;
+  text-align: center;
+  font-size: 28px;
+  padding: 6px;
+  width: 170px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+ font-family: raleway;
+ float: right;
+}
+.button4 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button4 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button4:hover span {
+  padding-right: 25px;
+}
+
+.button4:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button4:hover{
+   border-radius: 4px;
+  background-color: #EEEEEE;
+   border: none;
+  color: #013ba0;
+  text-align: center;
+  font-size: 28px;
+  padding: 6px;
+  font-family: raleway;
+  width: 170px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  float: right;
+}
+.lcolmn{
+	padding-left: 8%;
+	padding-right: 8%;
+}
+#overflowTest {
+  background: #262626;
+  color: white;
+  padding: 15px;
+  width: 80%;
+  height: 300px;
+  overflow: auto;
+  }
+  .cl{
+color: white;
+text-align: center;
+}
+.scrol{
+	padding: 19px;
+  padding-left: 8%;
+  background: #161616;
+}
+.h6{
+  font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+  font-size: 18px !important;
+  line-height: 18px;
+  font-weight: 500;
+  color: #ffffff!important;  
+}
+.h7{
+  font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+  font-size: 14px !important;
+  line-height: 24px;
+  font-weight: 500;
+  color: #ffffff!important;  
+}
+.h8{
+  font-family: Raleway, Helvetica, Arial, Lucida, sans-serif;
+  font-size: 14px !important;
+  line-height: 24px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.61)!important;  
+}
+.n1{
+  font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+  font-size: 20px !important;
+  line-height: 14px;
+  font-weight: 600;
+  color: grey!important;
+}
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
+  }
+}
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
+  }
+}

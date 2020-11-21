@@ -1,0 +1,328 @@
+@import url(https://fonts.googleapis.com/css2?family=Varela+Round&display=swap);
+@import url(https:////fonts.googleapis.com/css?family=Raleway);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#navbar {
+    overflow: hidden;
+    background-color: white;
+   /* padding: 90px 10px; /* Large padding which will shrink on scroll (using JS) */
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    position: fixed; /* Sticky/fixed navbar */
+    width: 100%;
+    top: 0; /* At the top */
+    z-index: 99;
+  }
+  #navbar #logo {
+    width: 50%;
+    margin-left: 20%;
+    transition: 0.4s;
+  }
+  #navbar-right {
+    float: right;
+  }
+  .n1{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 20px !important;
+    line-height: 14px;
+    font-weight: 600;
+    color: grey!important;
+  }
+  .active{
+    color: rgb(0, 29, 105) !important;
+  }
+  .button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .head1{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 26px !important;
+    line-height: 26px;
+    font-weight: 500;
+    color: #666666!important; 
+  }
+  .head2{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px !important;
+    line-height: 24px;
+    font-weight: 500;
+    color: #666666!important; 
+  }
+  .head3{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px !important;
+    line-height: 24px;
+    font-weight: 500;
+    color: #666666!important; 
+  }
+  .head4{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 18px !important;
+    line-height: 18px;
+    font-weight: 500;
+    color: #666666!important; 
+  }
+  .d2 ul li{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px !important;
+    line-height: 24px;
+    font-weight: 500;
+    color: #666666!important; 
+    list-style-type:none;
+  }
+  .h6{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 18px !important;
+    line-height: 18px;
+    font-weight: 500;
+    color: #ffffff!important;  
+  }
+  .h7{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px !important;
+    line-height: 24px;
+    font-weight: 500;
+    color: #ffffff!important;  
+  }
+  .h8{
+    font-family: Raleway, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px !important;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.61)!important;  
+  }
+  #d2{
+    background: linear-gradient(110deg,  rgb(0,29,105,0.7) 50%, rgb(255, 255, 255,0) 0%),url(img21.jpg) no-repeat center; 
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+    /* background: linear-gradient(110deg,  rgb(0,29,105,0.7) 50%, rgb(255, 255, 255,0) 0%);  */
+  }
+  .dc{
+    background:url(feature1.png) no-repeat center; 
+    background-size: 100% 100%;
+  }
+  .h1c{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 500;
+  }
+  .p1c{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 26px;
+    line-height: 26px;
+    font-weight: 500;
+  }
+  .h1b{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 500;
+  }
+  .banner{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("home-botton-img.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
+  #img2{
+    clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 75% 100%, 50% 100%, 30% 100%, 0% 50%);
+    position: relative;
+  }
+  .img3{ 
+    top: 0%;
+    padding: 15% 15% 500% 15%;
+    position: absolute;
+    margin: auto;
+  }
+  .dc2{
+    background:url(img5.jpg) no-repeat center; 
+    background-size: 100% 100%;
+  }
+  .dc3{
+    background:url(img4.jpg) no-repeat center; 
+    background-size: 100% 100%;
+  }
+  .h1d{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 26px;
+    line-height: 26px;
+    font-weight: 500;
+  }
+  .p1d{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  .h1y{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+  }
+  .h1z{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #666666;
+  }
+  .h1x{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+  }
+  .p1x{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+  }
+  .xy1{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: 500;
+    color: white; 
+  }
+  .xy2{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 26px;
+    line-height: 24px;
+    font-weight: 500;
+    color: white;
+  }
+  .s31{
+    background-image: url('img5.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .s32{
+    background-image: url('img4.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .d2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    z-index: 100;
+    text-align: left;
+  }
+  
+  .blur{
+    background-color: black;
+    opacity: 0.7;
+    z-index: 1;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /*padding-left: 20px;
+    padding-right: 20px;*/
+  }
+  .heading2{
+    font-family: Varela Round, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 26px;
+    line-height: 26px;
+    font-weight: 500;
+    color: white;
+  }
+  
+  .heading7{
+    font-size: 30px;
+    color: #666666;
+    font-weight: 500;
+    line-height: 35px;
+    font-family:  Varela Round;
+    text-align: center;
+  
+  }
+  .heading8{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 22px;
+    font-family: Raleway;
+    padding-left: 30px;
+    
+  
+  }
+  @media screen and (max-width: 580px) {
+    #navbar {
+      padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+    }
+    #navbar a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    #navbar-right {
+      float: none;
+    }
+  }
+  @media screen and (max-width: 1293px) {
+      #d2{
+        background: linear-gradient(0deg,  rgb(0,29,105,0.7) 50%, rgb(255, 255, 255,0) 0%),url(img21.jpg) no-repeat center; 
+        background-size: 100% 100%;
+        height: 100vh;
+        width: 100%;
+      }
+      #media{
+          padding: 0 10% 0 0;
+      }
+  }
